@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hai Amoy 💕 — Cerita Hari Ini</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <span class="emoji">💌</span>
+    <h1>Hai Amoy, Cerita Dong!</h1>
+    <p>Aku pengen tahu semua tentang hari kamu hari ini 🥰<br>Isi ya, nanti langsung masuk ke WhatsApp aku 💕</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <form id="loveForm">
+
+    <div class="field">
+      <label for="nama"><span class="num">1</span>haloww amoyy 😊</label>
+      <input type="text" id="nama" name="nama" placeholder="Tulis nama kamu di sini..." required>
+    </div>
+
+    <div class="field">
+      <label for="kegiatan"><span class="num">2</span>Lagi ngapain sekarang? 🧐</label>
+      <input type="text" id="kegiatan" name="kegiatan" placeholder="Contoh: lagi rebahan sambil dengerin lagu...">
+    </div>
+
+    <div class="field">
+      <label for="hari"><span class="num">3</span>Gimana harinya hari ini? 🌤️</label>
+      <textarea id="hari" name="hari" placeholder="Ceritain dong, hari kamu seru nggak?"></textarea>
+    </div>
+
+    <div class="field">
+      <label for="kuliah"><span class="num">4</span>Gimana kuliahnya hari ini? 📚</label>
+      <textarea id="kuliah" name="kuliah" placeholder="Ada tugas? Dosennya galak? Nilainya gimana?"></textarea>
+    </div>
+
+    <div class="field">
+      <label for="lokasi"><span class="num">5</span>Sekarang lagi di mana? 📍</label>
+      <input type="text" id="lokasi" name="lokasi" placeholder="Rumah, kampus, kos, kafe...">
+    </div>
+
+    <div class="field">
+      <label for="makan"><span class="num">6</span>Udah makan belum? Makan apa? 🍜</label>
+      <input type="text" id="makan" name="makan" placeholder="Jangan lupa makan ya amoy...">
+    </div>
+
+    <div class="field">
+      <label><span class="num">7</span>Mood kamu hari ini gimana? 🎭</label>
+      <div class="mood-wrap">
+        <input type="radio" name="mood" id="m1" value="Happy 😄"><label for="m1">😄 Happy</label>
+        <input type="radio" name="mood" id="m2" value="Biasa aja 😐"><label for="m2">😐 Biasa</label>
+        <input type="radio" name="mood" id="m3" value="Capek 😩"><label for="m3">😩 Capek</label>
+        <input type="radio" name="mood" id="m4" value="Sedih 😢"><label for="m4">😢 Sedih</label>
+        <input type="radio" name="mood" id="m5" value="Kangen 🥺"><label for="m5">🥺 Kangen</label>
+        <input type="radio" name="mood" id="m6" value="Marah 😠"><label for="m6">😠 Marah</label>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="cerita"><span class="num">8</span>Mau cerita apa hari ini? 🗣️</label>
+      <textarea id="cerita" name="cerita" placeholder="Aku siap dengerin semua cerita kamu, sebanyak apapun itu..."></textarea>
+    </div>
+
+    <div class="field">
+      <label for="kangen"><span class="num">9</span>kangen nggak amoyy?😃</label>
+      <input type="text" id="kangen" name="kangen" placeholder="Jujur ya... hehe">
+    </div>
+
+    <div class="field">
+      <label for="pesan"><span class="num">10</span>Ada pesan buat aku? 💖</label>
+      <textarea id="pesan" name="pesan" placeholder="Tulis apa aja yang kamu mau bilang ke aku..."></textarea>
+    </div>
+
+    <button type="submit" class="btn">Kirim ke WhatsApp Aku 💌</button>
+    <button type="reset" class="btn btn-reset">Ulangi dari awal 🔄</button>
+  </form>
+
+  <p class="footer-note">
+    Dibuat dengan ❤️ cuma buat kamu<br>
+    Semua jawaban kamu langsung masuk ke WhatsApp aku ya!
+  </p>
+</div>
+
+<div class="toast" id="toast">Mengirim ke WhatsApp... 💕</div>
+
+<!-- ✅ HANYA INI script yang tersisa — semua logika ada di java_script.js -->
+<script src="java_script.js"></script>
+
+</body>
+</html>
